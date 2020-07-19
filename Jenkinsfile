@@ -1,6 +1,6 @@
 pipeline {
     agent {label 'master'}
-    tools {Nodejs 'N1'}    
+    tools {nodejs 'N1'}    
     environment {
         CI = 'true'
     }
